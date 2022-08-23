@@ -1,0 +1,4 @@
+Pulumi.s3-custom-bucket.yaml
+venv/
+__pycache__/
+sources/

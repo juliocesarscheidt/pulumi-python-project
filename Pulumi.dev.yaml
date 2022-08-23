@@ -1,0 +1,5 @@
+config:
+  aws:region: us-east-1
+  s3-custom-bucket:data:
+    active: true
+    bucket_name: s3-bucket
