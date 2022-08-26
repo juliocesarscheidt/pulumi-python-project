@@ -12,7 +12,7 @@ RUN apt-get clean && \
 # optional - install aws cli from local file
 # COPY sources/awscli.zip .
 # instead, this would install using the external source file
-curl --silent \
+RUN curl --silent \
   -L https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip \
   -o awscli.zip
 RUN unzip awscli.zip && \
