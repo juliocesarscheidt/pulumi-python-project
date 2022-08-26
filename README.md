@@ -37,10 +37,7 @@ docker container run --rm -it \
 > Running commands inside the container to provision the stack
 
 ```bash
-# list plugins
-pulumi plugin ls
-
-# login local
+# login local (not recommended)
 pulumi login --local
 
 # check aws identity
